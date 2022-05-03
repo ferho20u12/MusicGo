@@ -7,14 +7,14 @@
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.88.1">
     <title>Signin Template · Bootstrap v5.1</title>
-	<link href="./Assets/signin.css" rel="stylesheet">
+	<link href="./Css/signin.css" rel="stylesheet">
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   </head>
   <body class="text-center">
     <main class="form-signin">
       <form action = "sesion.php" method = "POST">
-        <img class="mb-4" src="../assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
+        <img class="mb-4" src="./Assets/loging.svg" alt="" width="120" height="120">
         <h1 class="h3 mb-3 fw-normal">Inicio de sesion</h1>
         <div class="form-floating">
           <input type="text" class="form-control" name="user" placeholder="Ingresa su usuario">

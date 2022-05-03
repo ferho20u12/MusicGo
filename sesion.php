@@ -7,7 +7,7 @@
     $query = "SELECT * FROM usuarios WHERE nombre='$usuario' AND contrasena='$clave'";
     $consulta = pg_query($conexion,$query);
     $cantidad = pg_num_rows($consulta);
-    if($cantidad > 0)
+    if($cantidad == 1)
     {
         $_SESSION['nombre_usuario']=$usuario;
         header("location: ingreso.php");
